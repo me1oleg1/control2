@@ -1,0 +1,889 @@
+.class_1 {
+    background: #1E1E1E;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.wrapper {}
+
+.language {
+    display: none;
+}
+
+label span {
+
+    display: none;
+}
+
+.section1 {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.boxp1 {
+
+    width: 100%;
+    height: 583px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(image/sam-moghadam-khamseh-ugaOk9LkmQY-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pad {
+    width: 47%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
+    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+    margin-top: 40px;
+}
+
+.pad div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
+    height: 140px;
+    width: 108px;
+}
+
+
+.pad1 {
+    display: inline-block;
+    width: 175px;
+    height: 185px;
+    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+}
+
+.pad1 img {
+    padding: 40px 0px 0px 15px;
+    width: 200px;
+    height: 240px;
+}
+
+.obertka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+}
+
+.obertka p {
+
+    margin: 0px 0px 0px 0px;
+}
+
+.image-text {
+    display: block;
+    width: 100%;
+    height: 101px;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    /* Полупрозрачный фон для текста */
+    /* Цвет текста */
+    /* Отступы вокруг текста */
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 89.023%;
+    /* 35.609px */
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-left: 5%;
+
+
+
+}
+
+.image-text1 {
+
+    display: block;
+    text-align: right;
+    width: 138px;
+    height: 65px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    /* Цвет текста */
+    /* Отступы вокруг текста */
+    line-height: 120.523%;
+    /* 18.078px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    padding-right: 10%;
+
+}
+
+
+
+
+
+.comp {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50.906px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 45.318px */
+    letter-spacing: -1.273px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    -webkit-text-stroke: 1px #FFED00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.about {
+    margin-left: 16px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+.company p {
+
+    text-align: center;
+    flex-wrap: wrap;
+    color: #CCCCCC;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    word-wrap: break-word;
+    /* 20.724px */
+    flex-grow: 0;
+}
+
+.our {
+    display: block;
+
+    width: 100%;
+
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 20px */
+    text-transform: uppercase;
+    margin: 20px 0px 0px 0px;
+}
+
+.our {
+    padding-left: 5%;
+}
+
+.contacus {
+
+    width: 252.784px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+}
+
+.contacs {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: #A8A8A8;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    margin: 0px;
+    /* 20.724px */
+}
+
+
+
+.milo p {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82.523%;
+    /* 37.135px */
+    text-transform: uppercase;
+}
+
+.boxh3 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 214px;
+    width: 100%;
+    margin-left: 15.3px;
+    margin-bottom: 20px;
+
+}
+
+.boxh3 h2 {
+    width: 100%;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+
+}
+
+.boxh3 p {
+    width: 100%;
+    color: #CCC;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    /* 20.724px */
+
+}
+
+.hr1 {
+    width: 90%;
+
+}
+
+.hr2 {
+    width: 90%;
+}
+
+.boxhead {
+    width: 90%;
+    height: 40.44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.boxhead2 {
+    display: none;
+}
+
+.boxhead2 p {
+    display: none;
+
+}
+
+
+
+
+.Light {
+    display: inline-block;
+    /*margin-left: 15px;
+    margin-right: 47px;*/
+    margin-top: 5px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+
+}
+
+
+
+.box2pM {
+    width: 48%;
+    margin: 28px 0px 0px 0px;
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+
+.box2q0 {
+    display: inline-block;
+    width: 175px;
+    height: 185px;
+}
+
+.VIEW {
+    color: #FFF;
+    font-family: Bebas Neue;
+    margin: 0px 0px 0px 0px;
+    font-size: 51.83px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82.523%;
+    /* 43.597px */
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+}
+
+.secshn {
+    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bbox {
+    width: 390;
+    height: 700px;
+}
+
+.viewbox {
+    width: 47%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* Выравнивание по горизонтали по центру */
+    align-items: start;
+    justify-content: space-between;
+}
+
+.viewbox a {
+
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.longpic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+
+.bboxcmali img {
+
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 30px;
+}
+
+.read {
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-self: flex-end;
+    height: 25px;
+
+
+}
+
+#b7 {
+    margin: 0px
+}
+
+
+#b6 {
+    margin: 0px;
+}
+
+#b5 {
+    margin-top: 0px;
+}
+
+#b8 {
+    margin-top: 0p;
+}
+
+.cectflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.strelka {
+    display: none;
+}
+
+
+
+
+.blockfoot {
+
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+
+
+
+
+.footdiv {
+    height: 205px;
+    padding-left: 13px;
+    margin-top: -10px;
+}
+
+.footdiv p {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 380;
+    line-height: 82.523%;
+    /* 37.135px */
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.section2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.footp {
+    padding-bottom: 22px;
+    padding-top: 44px;
+    height: 50px;
+}
+
+.footp2 {
+    padding-bottom: 43px;
+    height: 50px;
+
+}
+
+.box2p {
+    width: 47%;
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+.box2q img {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.box2p3 {
+    width: 47%;
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+
+
+}
+
+.nav1 {
+    height: 60px;
+    width: 390px;
+
+}
+
+.nav1 a {
+
+    width: 15px;
+    height: 100%;
+}
+
+.nav1 img {
+    padding: 15px 15px 15px 15px;
+}
+
+.lp {
+    padding-right: 91px;
+}
+
+.forma {
+    display: flex;
+
+    width: 360px;
+    height: 420px;
+    background: linear-gradient(180deg, #262626 30.46%, #3A3A3A 100%);
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.forma form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.forma h3 {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 37px;
+}
+
+.forma input {
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.forma button {
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 0px;
+    border: 0px;
+}
+
+.forma1 {
+    padding-top: 50px;
+    display: block;
+    width: 65px;
+    height: 10px;
+    margin-left: -25%;
+}
+
+.forma p {
+
+    color: #CCC;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    text-decoration-line: underline;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0px;
+}
+
+.lastp {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #A8A8A8;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    /* 18.133px */
+}
+
+.boxline1 {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;*/
+
+    margin-top: 40px;
+}
+
+.boxline1 p {
+    white-space: nowrap;
+}
+
+.flexbox1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    ;
+    flex-wrap: wrap;
+}
+
+.arrow {
+    display: none;
+}
+
+.links {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+
+.links div {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxa {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
+}
+
+.boxa div {
+    width: 162px;
+    height: 60px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
+}
+
+.boxa {}
+
+.boxa a {
+    width: 100%;
+    /* Занимает 100% ширины контейнера */
+    height: 100%;
+    /* Занимает 100% высоты контейнера */
+    object-fit: cover;
+}
+
+.lastbox {
+    display: none;
+
+
+}
+
+.galery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hr4 {
+    width: 48%;
+    margin-top: 20px;
+}
+
+input {
+    color: #FFF;
+    background-color: transparent;
+
+    border-bottom: 1px solid #f8f2f2 !important;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 20px */
+    text-transform: uppercase;
+}
+
+/* псевдоэлементы */
+::selection {
+    color: #db1212;
+    /* Цвет текста при выделении */
+    background: #1E1E1E;
+    /* Цвет фона при выделении */
+}
+
+button:hover {
+    transform: scale(1.1) rotate(5deg);
+
+    box-shadow: 0 8px 12px rgba(126, 49, 49, 0.2);
+
+    /* Изменение цвета фона при наведении */
+
+    /* Изменение цвета текста при наведении */
+
+}
+
+button:active {
+    transform: scale(0.8);
+    transform: skewX(-10deg) skewY(-5deg);
+    /* Уменьшение размера кнопки при нажатии */
+}
+
+button:focus {
+    /* border: 6px solid #007bff !important;
+     Изменение цвета рамки при фокусе на поле ввода */
+}
+
+.card {
+    position: relative;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+
+    animation: spin 3s ease-out 0s forwards;
+    position: absolute;
+
+
+}
+
+.opaloader {
+    visibility: hidden;
+    animation: fadeIn 0.5s ease-out 3s forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        visibility: hidden;
+        opacity: 1;
+        transform: rotate(1440deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.nav1 a:nth-child(even) {
+    background-color: #464646;
+    /* Цвет фона для четных элементов */
+
+}
+
+.nav1 a:nth-child(odd) {
+    background-color: #401717 !important;
+    /* Цвет фона для четных элементов */
+
+}
+
+.dummy {}
+
+a {
+    cursor: pointer;
+    z-index: 1;
+}
